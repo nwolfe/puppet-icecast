@@ -37,7 +37,7 @@
 #
 
 class icecast(
-      $source_password = "hackme",
+      $source_password = "password",
       $admin_user      = "admin",
       $admin_password  = "password",
       $hostname        = "localhost",
