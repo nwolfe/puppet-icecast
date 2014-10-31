@@ -44,4 +44,5 @@ class icecast(
       $port            = "8000") {
   include icecast::install
   include icecast::config
+  include icecast::service
 }
