@@ -1,6 +1,6 @@
 class icecast::service {
   service { 'icecast2':
-    enabled => true,
+    enable  => true,
     require => Class['icecast::config']
   }
 }
