@@ -1,4 +1,6 @@
-class icecast::config -> icecast::install {
+class icecast::config {
+  include icecast::install
+
   file { '/etc/icecast2/icecast.xml':
     ensure  => present,
     owner   => 'icecast2',
