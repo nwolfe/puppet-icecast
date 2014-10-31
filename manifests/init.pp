@@ -35,7 +35,12 @@
 #
 # Copyright 2014 Your name here, unless otherwise noted.
 #
-class icecast {
 
-
+class icecast(
+      $source-password = "hackme",
+      $admin-user      = "admin",
+      $admin-password  = "hackme",
+      $hostname        = "localhost",
+      $port            = "8000") {
+  include icecast::install
 }
