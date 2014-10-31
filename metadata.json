@@ -2,10 +2,10 @@
   "name": "nwolfe-icecast",
   "version": "0.1.0",
   "author": "nwolfe",
-  "summary": null,
+  "summary": "Icecast streaming media server",
   "license": "Apache 2.0",
-  "source": "",
-  "project_page": null,
+  "source": "UNKNOWN",
+  "project_page": "https://github.com/nwolfe/puppet-icecast",
   "issues_url": null,
   "dependencies": []
 }

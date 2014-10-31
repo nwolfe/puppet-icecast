@@ -37,9 +37,9 @@
 #
 
 class icecast(
-      $source-password = "hackme",
-      $admin-user      = "admin",
-      $admin-password  = "hackme",
+      $source_password = "hackme",
+      $admin_user      = "admin",
+      $admin_password  = "hackme",
       $hostname        = "localhost",
       $port            = "8000") {
   include icecast::install
