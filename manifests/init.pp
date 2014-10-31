@@ -43,4 +43,5 @@ class icecast(
       $hostname        = "localhost",
       $port            = "8000") {
   include icecast::install
+  include icecast::config
 }
