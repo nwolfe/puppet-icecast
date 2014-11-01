@@ -6,7 +6,8 @@ class icecast::config {
     group   => 'icecast',
     mode    => 660,
     content => template("${module_name}/icecast.xml.erb"),
-    require => Class['icecast::install']
+    require => Class['icecast::install'],
+    notify  => Service['icecast2']
   }
 
   file { '/etc/default/icecast2':
