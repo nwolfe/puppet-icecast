@@ -1,5 +1,4 @@
 class icecast::service {
-  notify { 'icecast::service (service.pp)': }
 
   service { 'icecast2':
     enable    => true,

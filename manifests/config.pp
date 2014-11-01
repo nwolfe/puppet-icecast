@@ -1,5 +1,4 @@
 class icecast::config {
-  notify { 'icecast::config (config.pp)': }
 
   file { '/etc/icecast2/icecast.xml':
     ensure  => present,

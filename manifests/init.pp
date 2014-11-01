@@ -43,7 +43,6 @@ class icecast(
   $hostname        = "localhost",
   $port            = "8000")
 {
-    notify { 'icecast (init.pp)': }
     include icecast::install
     include icecast::config
     include icecast::service
