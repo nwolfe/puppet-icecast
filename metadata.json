@@ -4,8 +4,9 @@
   "author": "nwolfe",
   "summary": "Icecast streaming media server",
   "license": "Apache 2.0",
-  "source": "UNKNOWN",
+  "source": "https://github.com/nwolfe/puppet-icecast",
   "project_page": "https://github.com/nwolfe/puppet-icecast",
-  "issues_url": null,
+  "issues_url": "https://github.com/nwolfe/puppet-icecast/issues",
+  "tags": ["music", "radio", "icecast", "mpd", "mpc"],
   "dependencies": []
 }
