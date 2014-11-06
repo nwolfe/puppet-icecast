@@ -6,6 +6,15 @@ class icecast::install {
   }
 
   package { $package_name:
-    ensure => "present",
+    ensure => present,
+  }
+  ->
+  group { 'icecast':
+    ensure => present
+  }
+  ->
+  user { 'icecast':
+    ensure => present,
+    groups => ['icecast']
   }
 }

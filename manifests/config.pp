@@ -7,7 +7,6 @@ class icecast::config {
 
   file { $config_file:
     ensure  => present,
-    #owner   => 'icecast2',
     group   => 'icecast',
     mode    => 660,
     content => template("${module_name}/icecast.xml.erb"),
