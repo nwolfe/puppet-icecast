@@ -6,7 +6,7 @@ class icecast::service {
   }
 
   service { 'icecast':
-    title     => $service_name,
+    name      => $service_name,
     enable    => true,
     ensure    => 'running',
     hasstatus => false,
