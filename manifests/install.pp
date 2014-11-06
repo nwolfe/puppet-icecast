@@ -1,6 +1,11 @@
 class icecast::install {
 
-  package { "icecast2":
+  $package_name = $operatingsystem ? {
+    'Ubuntu' => 'icecast2',
+    'Fedora' => 'icecast'
+  }
+
+  package { $package_name:
     ensure => "present",
   }
 }
